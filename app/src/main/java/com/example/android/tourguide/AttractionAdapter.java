@@ -39,7 +39,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
             View listItemView = convertView;
             if (listItemView == null) {
                 listItemView = LayoutInflater.from(getContext()).inflate(
-                        R.layout.list_item, parent, false);
+                        R.layout.attraction_list_item, parent, false);
             }
 
             // Get the {@link Attraction} object located at this position in the list
@@ -49,13 +49,13 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
             TextView titleTextView = (TextView) listItemView.findViewById(R.id.title);
             // Get the title from the current Attraction object and set this text on
             // the Attraction TextView.
-           titleTextView.setText(currentAttraction.getCurrentAttraction());
+           titleTextView.setText(currentAttraction.getTitleAttraction());
 
             // Find the TextView in the attraction_list_item.xml layout with the ID description.
             TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description);
             // Get the description from the current Attraction object and set this text on
             // the Attraction TextView.
-            descriptionTextView.setText(currentAttraction.getCurrentAttraction());
+            descriptionTextView.setText(currentAttraction.getDescriptionAttraction());
 
             // Find the ImageView in the attraction_list_item.xml layout with the ID image.
             ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);

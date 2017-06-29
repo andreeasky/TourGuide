@@ -31,7 +31,7 @@ import java.util.ArrayList;
             attractions.add(new Attraction(R.string.fagaras_fortress, R.string.fagaras_fortress_description, R.drawable.fagaras_fortress));
             attractions.add(new Attraction(R.string.peles_castle, R.string.peles_castle_description, R.drawable.peles_castle));
             attractions.add(new Attraction(R.string.rasnov_fortress, R.string.rasnov_fortress_description, R.drawable.rasnov_fortress));
-            attractions.add(new Attraction(R.string.viscri_fortified_church, R.viscri_fortified_church_description, R.drawable.viscri_fortified_church));
+            attractions.add(new Attraction(R.string.viscri_fortified_church, R.string.viscri_fortified_church_description, R.drawable.viscri_fortified_church));
             attractions.add(new Attraction(R.string.biertan_fortified_church, R.string.biertan_fortified_church_description, R.drawable.biertan_fortified_church));
             attractions.add(new Attraction(R.string.harman_fortified_church, R.string.harman_fortified_church_description, R.drawable.harman_fortified_church));
             attractions.add(new Attraction(R.string.jidvei_bethlen_haller_castle, R.string.jidvei_bethlen_haller_castle_description, R.drawable.jidvei_bethlen_haller_castle));
@@ -42,7 +42,7 @@ import java.util.ArrayList;
 
             // Create an {@link WordAdapter}, whose data source is a list of {@link Attraction}s. The
             // adapter knows how to create list items for each item in the list.
-            PagerAdapter adapter = new PagerAdapter(getActivity(), attractions, R.color.category_castles);
+            AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.category_castles);
 
             // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
             // There should be a {@link ListView} with the view ID called list, which is declared in the
@@ -52,9 +52,6 @@ import java.util.ArrayList;
             // Make the {@link ListView} use the {@link PagerAdapter} we created above, so that the
             // {@link ListView} will display list items for each {@link Attraction} in the list.
             listView.setAdapter(adapter);
-
-            // Get the {@link Attraction} object at the given position the user clicked on
-            Attraction attraction = attractions.get(position);
 
             return rootView;
 
