@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary color of the app (shown in the app bar) -->
-    <color name="colorPrimary">#4A312A</color>
+    <color name="colorPrimary">#00a800</color>
     <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="colorPrimaryDark">#2F1D1A</color>
+    <color name="colorPrimaryDark">#007300</color>
     <!-- Background color for app -->
-    <color name="colorAccent">#18FFFF</color>
+    <color name="colorAccent">#6bff6b</color>
 
     <!-- Background color for the Cities category -->
-    <color name="category_cities">#16AFCA</color>
+    <color name="category_cities">#98ef17</color>
 
     <!-- Background color for the Castles category -->
-    <color name="category_castles">#16AFCA</color>
+    <color name="category_castles">#98ef17</color>
 
     <!-- Background color for the Mountains category -->
-    <color name="category_mountains">#16AFCA</color>
+    <color name="category_mountains">#98ef17</color>
 
     <!-- Background color for the Monasteries category -->
-    <color name="category_monasteries">#16AFCA</color>
+    <color name="category_monasteries">#98ef17</color>
 
     <!-- Background color for the Unesco Sites category -->
-    <color name="category_unesco_sites">#16AFCA</color>
+    <color name="category_unesco_sites">#98ef17</color>
 
     <!-- Background color for the Villages category -->
-    <color name="category_villages">#16AFCA</color>
+    <color name="category_villages">#98ef17</color>
 
 </resources>

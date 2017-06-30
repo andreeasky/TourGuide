@@ -10,9 +10,10 @@
 
     <!-- Style for a tab that displays a category name -->
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
-        <item name="tabIndicatorColor">@android:color/white</item>
-        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorColor">#f2df0c</item>
+        <item name="tabSelectedTextColor">#f2df0c</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabMode">scrollable</item>
     </style>
 
     <!-- Text appearance style for a category tab -->

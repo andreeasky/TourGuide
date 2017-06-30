@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">Discover Romania</string>
     <string name="category_cities">Cities</string>
     <string name="category_villages">Villages</string>
     <string name="category_castles">Castles</string>
@@ -9,7 +9,7 @@
     <string name="bucharest">Bucharest</string>
     <string name="bucharest_description">Known for its wide, tree-lined boulevards, glorious Belle Époque buildings and a reputation for the high life (which in the 1900s earned its nickname of \"Little Paris\"), Bucharest, Romania\'s largest city and capital, is today a bustling metropolis and the cultural, industrial and financial centre of Romania.</string>
     <string name="cluj_napoca">Cluj-Napoca</string>
-    <string name="cluj_napoca_description">With one of the most vibrant economies in the country and a population of around 330,000, Cluj, is today a vibrant cultural and educational city. The six state and several private universities located here also make Cluj Napoca the city with the largest percentage of student population in Romania.</string>
+    <string name="cluj_napoca_description">With one of the most vibrant economies in the country and a population of around 330,000, Cluj is today a vibrant cultural and educational city. The six state and several private universities located here also make Cluj Napoca the city with the largest percentage of student population in Romania.</string>
     <string name="timisoara">Timisoara</string>
     <string name="timisoara_description">The first record of the city of Timisoara, built on the site of an ancient Roman fortress called Castrum Regium. \nThemes, dates back to 1212. Over the years, Timisoara, the largest city in western Romania, has been influenced by many cultures. The charm of this city, settled on the northern bank of the Bega River, lies in its distinct architectural character and vibrant cultural life.</string>
     <string name="iasi">Iasi</string>

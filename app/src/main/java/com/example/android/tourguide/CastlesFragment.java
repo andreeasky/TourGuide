@@ -35,7 +35,6 @@ import java.util.ArrayList;
             attractions.add(new Attraction(R.string.biertan_fortified_church, R.string.biertan_fortified_church_description, R.drawable.biertan_fortified_church));
             attractions.add(new Attraction(R.string.harman_fortified_church, R.string.harman_fortified_church_description, R.drawable.harman_fortified_church));
             attractions.add(new Attraction(R.string.jidvei_bethlen_haller_castle, R.string.jidvei_bethlen_haller_castle_description, R.drawable.jidvei_bethlen_haller_castle));
-            attractions.add(new Attraction(R.string.biertan_fortified_church, R.string.biertan_fortified_church_description, R.drawable.biertan_fortified_church));
             attractions.add(new Attraction(R.string.prejmer_fortified_church, R.string.prejmer_fortified_church_description, R.drawable.prejmer_fortified_church));
             attractions.add(new Attraction(R.string.saschiz_fortified_church, R.string.saschiz_fortified_church_description, R.drawable.saschiz_fortified_church));
             attractions.add(new Attraction(R.string.valea_viilor_fortified_church, R.string.valea_viilor_fortified_church_description, R.drawable.valea_viilor_fortified_church));
