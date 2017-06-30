@@ -12,12 +12,14 @@
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">#f2df0c</item>
         <item name="tabSelectedTextColor">#f2df0c</item>
-        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabTextAppearance">@style/TabLayoutTextStyle</item>
         <item name="tabMode">scrollable</item>
     </style>
 
     <!-- Text appearance style for a category tab -->
-    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">#A8A19E</item>
     </style>
 
